@@ -30,3 +30,38 @@ input::placeholder
 {
     font-size: .8rem;
 }
+ @media screen and (min-width: 320px) {
+    .form-container,.welcome{
+        padding: 2rem !important;
+        width: 95% !important;
+    } 
+    .form-container h2,.welcome h1{
+        font-size: 2rem  !important;
+        line-height: 46px  !important;
+    }
+    #username{
+        font-size: 2rem;
+    }
+    a.signup{
+        width: 100%;
+        display: inline-block;
+    }
+
+}
+
+ @media screen and (min-width:768px){
+    .form-container{
+        padding: 3rem !important;
+        width: 75% !important;
+    }
+    .form-container h2{
+        font-size: 2rem;
+    }
+    #username{
+        font-size: 2.5rem;
+    }
+    a.signup{
+        width: auto;
+        display: inline;
+    }
+ }
